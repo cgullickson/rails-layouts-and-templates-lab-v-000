@@ -4,6 +4,6 @@ class StoreAdminController < ApplicationController
   end
 
   def orders
-    layout: false 
+    layout: order_administration
   end
 end
